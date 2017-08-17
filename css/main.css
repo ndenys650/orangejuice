@@ -22,9 +22,7 @@ nav {
 
 .logo {
   	color: #fff;
-  	display: inline-block;
   	left: 120px;
-  	top: 25px;
 }
 
 nav > a {
@@ -34,9 +32,12 @@ nav > a {
   position: absolute;
   text-align: left;
   text-decoration: none;
-  top: 15px;
+  display: inline-block;
 }
 
+.nav_image {
+	height: 50px;
+}
 
 .sitenav {
 	display: inline-block;
