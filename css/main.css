@@ -35,8 +35,8 @@ nav > a {
   display: inline-block;
 }
 
-.nav_image {
-	height: 50px;
+nav .nav_image {
+	max-height: 50px;
 }
 
 .sitenav {
