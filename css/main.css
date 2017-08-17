@@ -35,7 +35,7 @@ nav > a {
   display: inline-block;
 }
 
-nav .nav_image {
+.logo .nav_image {
 	display: inline;
 	width: 50px;
 }
