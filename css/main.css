@@ -25,6 +25,11 @@ nav {
   	left: 120px;
 }
 
+.logo .nav_image {
+	display: inline;
+	width: 50px;
+}
+
 nav > a {
   color: #ffffff;
   font-size: 26px;
@@ -33,11 +38,6 @@ nav > a {
   text-align: left;
   text-decoration: none;
   display: inline-block;
-}
-
-.logo .nav_image {
-	display: inline;
-	width: 50px;
 }
 
 .sitenav {
