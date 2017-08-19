@@ -1,9 +1,10 @@
+/*Uniersal Font Style*/
+
 * {
 	font-family: "Open Sans", sans-serif;
-
 }
 
-/* Nav */
+/*Navigation Section Styling*/
 
 nav {
 	height: 80px;
@@ -11,7 +12,7 @@ nav {
 	display: inline-block;
 	width: 100%;
 	left: 0;
-  	position: absolute;
+  	position: fixed;
   	right: 0;
   	top: 0;
 }
@@ -57,13 +58,39 @@ nav > a {
   	text-decoration: none;
 }
 
-/* Body */
+/*NAvigation Media Responsive Styling*/
+@media only screen and (max-width: 470px) {
+	nav {
+		display: inline-flex;
+		flex-wrap: wrap;
+		height: 140px;
+	}
+
+	.logo {
+	  	color: #fff;
+	  	left: 90px;
+	}
+
+	.sitenav {
+		padding-top: 50px;
+		text-align: center;
+	}
+
+	.sitenav a {
+		color: #fff;
+	  	display: inline-block;
+	  	margin: 8px 10px;
+	  	text-decoration: none;
+	}
+}
+
+/*Center Body Section*/
 
 section {
-	padding-top: 80px;
 	background-color: white;
 }
 
+/*Search Box*/
 .search {
 	width: 19%;
 	height: 50px;
@@ -129,18 +156,83 @@ section {
 
 .quote {
 	background-color: orange;
-
 }
 
 .view {
 	background-color: lightblue;
-	
 }
 
-/* Footer */
+/*Body Section Media Responsive Styling*/
+@media only screen and (max-width: 470px) {
+	section {
+		margin-top: 150px;
+	}
+
+	.search {
+		width: 80%;
+		height: 50px;
+		background-color: lightgrey;
+		float: left;
+		margin-left: 10%;
+	}
+
+	.search input {
+		margin-left: 15px;
+		margin-top: 17px;
+		background-color: lightgrey;
+		border: none;
+	}
+
+	.jumbotron {
+		margin-bottom: 10px;
+	}
+
+	.jumbotron img {
+		display: none;
+	}
+
+	.info {
+		margin-top: 0;
+		display: inline-block;
+		text-align: center;
+		line-height: 50px;
+		font-size: 40px;
+		color: orange;
+		font-weight: 100;
+	}
+
+	.info span {
+		font-weight: 900;
+	}
+
+	.blue {
+		color: lightblue;
+	}
+
+	.info button {
+		font-size: 13px;
+		border-radius: 2px;
+		border: none;
+		color: white;
+		width: 250px;
+		height: 50px;
+		margin-right: 0;
+	}
+}
+
+/* Footer Section*/
 
 footer {
 	height: 80px;
 	background-color: lightblue;
 	max-width: 100%;
+}
+
+/*Footer Media Responsive Styling*/
+@media only screen and (max-width: 470px) {
+	footer {
+		height: 80px;
+		background-color: lightblue;
+		max-width: 100%;
+	}
 }
